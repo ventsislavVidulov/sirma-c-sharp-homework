@@ -9,6 +9,7 @@
         public void Solve()
         {
             string characters = streamReader.ReadToEnd();
+            streamReader.Close();
             foreach (var character in characters)
             {
                 Console.WriteLine(character);

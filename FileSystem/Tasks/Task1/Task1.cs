@@ -3,8 +3,9 @@
     internal class Task1
     {
         public string Name { get; } = "Word Lengths";
+        private static string inputRealtivePath = @"..\..\..\..\FileSystem\Tasks\Task1\input.txt";
 
-        private StreamReader streamReader = new StreamReader("C:\\Users\\Xcen3\\Desktop\\Sirma\\C#\\SirmaCSharpHomework\\FileSystem\\Tasks\\Task1\\input.txt");
+        private StreamReader streamReader = new StreamReader(inputRealtivePath);
 
         public void Solve()
         {

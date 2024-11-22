@@ -3,8 +3,9 @@
     internal class Task2
     {
         public string Name { get; } = "Character Frequency";
+        private static string inputRealtivePath = @"..\..\..\..\FileSystem\Tasks\Task2\input.txt";
 
-        private StreamReader streamReader = new StreamReader("C:\\Users\\Xcen3\\Desktop\\Sirma\\C#\\SirmaCSharpHomework\\FileSystem\\Tasks\\Task2\\input.txt");
+        private StreamReader streamReader = new StreamReader(inputRealtivePath);
 
         public void Solve()
         {

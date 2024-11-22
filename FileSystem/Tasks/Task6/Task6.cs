@@ -6,7 +6,8 @@ namespace FileSystem.Tasks.Task6
     internal class Task6
     {
         private static string inputRealtivePath = @"..\..\..\..\FileSystem\Tasks\Task6\input.txt";
-        private static string otputRealtivePath = @"..\..\..\..\FileSystem\Tasks\Task6\output.txt";
+        private static string ouputRealtivePath = @"..\..\..\..\FileSystem\Tasks\Task6\output.txt";
+        private List<string> output = new();
         public string Name { get; } = "Reverse Lines";
         public void Solve()
         {
@@ -17,8 +18,13 @@ namespace FileSystem.Tasks.Task6
                 {
                     char[] lineAsChars = line.ToCharArray();
                     Array.Reverse(lineAsChars);
-                    Console.WriteLine(new String(lineAsChars));
+                    output.Add(new String(lineAsChars));
                 }
+            }
+
+            using (StreamWriter sw = new StreamWriter(ouputRealtivePath))
+            {
+                sw.WriteLine(String.Join("\n", output));
             }
         }
     }

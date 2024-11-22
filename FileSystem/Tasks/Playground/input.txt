@@ -1,0 +1,5 @@
+﻿Write a program that reads a text file ("input.txt") and prints on the console the number
+of lines, words, and characters in the file.
+Read the file line by line.
+Count lines, split each line into words to count words, and sum the length of lines
+to count characters.

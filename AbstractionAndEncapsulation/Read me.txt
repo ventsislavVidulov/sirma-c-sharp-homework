@@ -1,0 +1,2 @@
+﻿I assume that item details is combination of name, category, price, quantity, and item type.
+I assume that value is product of price and quantity.

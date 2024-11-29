@@ -26,6 +26,17 @@ namespace FileSystem.Tasks.Task6
             {
                 sw.WriteLine(String.Join("\n", output));
             }
+
+            using (StreamReader sr = new StreamReader(ouputRealtivePath))
+            {
+                int countOflines = 0;
+                string line = sr.ReadLine();
+                while (line != null)
+                {
+                    countOflines++;
+                    line = sr.ReadLine();
+                }
+            }
         }
     }
 }

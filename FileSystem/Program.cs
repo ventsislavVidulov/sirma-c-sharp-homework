@@ -5,6 +5,7 @@ using FileSystem.Tasks.Task3;
 using FileSystem.Tasks.Task4;
 using FileSystem.Tasks.Task5;
 using FileSystem.Tasks.Task6;
+using FileSystem.Tasks.Task7;
 
 
 namespace FileSystem
@@ -20,6 +21,7 @@ namespace FileSystem
             var task4 = new Task4();
             var task5 = new Task5();
             var task6 = new Task6();
+            var task7 = new Task7();
 
             task1.Solve();
             task2.Solve();
@@ -27,6 +29,7 @@ namespace FileSystem
             task4.Solve();
             task5.Solve();
             task6.Solve();
+            task7.Solve();
         }
     }
 }

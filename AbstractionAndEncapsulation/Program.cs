@@ -10,12 +10,10 @@ namespace AbstractionAndEncapsulation
             int id = 0;
             List<InventoryItem> items = new List<InventoryItem>();
 
-            items.Add(new InventoryItem("Test Name", "Test category", 1.20, 10, "Test type", id++));
-            Helper.SafeToFile(items.LastOrDefault());
-            items.Add(new InventoryItem("Test2 Name", "Test2 category", 1.30, 20, "Test2 type", id++));
-            Helper.SafeToFile(items.LastOrDefault());
+            items = Helper.ReadFromFile();
+            id = items.Count;
 
-            Console.WriteLine("Choose command from add, end");
+            Console.WriteLine("Choose command from add, list, end");
             string command = Console.ReadLine();
 
             while (command != "end")
@@ -32,13 +30,25 @@ namespace AbstractionAndEncapsulation
                     int quantity = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Enter item type between electronic, grocery, or fragile");
                     string itemType = Console.ReadLine();
+                    Console.WriteLine("Enter description");
+                    string description = Console.ReadLine();
                     //name, category, price, quantity, and item type.
-                    items.Add(new InventoryItem(name, category, price, quantity, itemType, id++));
+                    items.Add(new InventoryItem(name, category, price, quantity, itemType, id++, description));
                     Helper.SafeToFile(items.LastOrDefault());
                     Console.WriteLine($"Successfully added {items.LastOrDefault().Details}");
+                    Console.WriteLine();
+                }
+                else if (command == "list")
+                {
+                    Console.WriteLine();
+                    foreach (var item in items)
+                    {
+                        Console.WriteLine(item.Details);
+                    }
+                    Console.WriteLine();
                 }
 
-                Console.WriteLine("Choose command from add, end");
+                Console.WriteLine("Choose command from add, list, end");
                 command = Console.ReadLine();
             }
         }

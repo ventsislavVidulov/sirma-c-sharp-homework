@@ -24,6 +24,7 @@ namespace AbstractionAndEncapsulation.Classes
             set => _category = value;
         }
         public double Price { get => _price; set => _price = value; }
+        public string Type { get => _type; }
         public virtual double CalculateValue()
         {
             //???

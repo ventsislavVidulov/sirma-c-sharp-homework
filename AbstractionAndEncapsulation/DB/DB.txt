@@ -1,4 +1,7 @@
-Id->0; Name->Test Name; Description->Default escription; Category->Test category; Price->1.2
-Id->1; Name->Test2 Name; Description->Default escription; Category->Test2 category; Price->1.3
-Id->0; Name->Test Name; Description->Default escription; Category->Test category; Price->1.2
-Id->1; Name->Test2 Name; Description->Default escription; Category->Test2 category; Price->1.3
+Id->0; Quantity->10; Name->Fancy mancy; Description->fancy vase; Category->decorations; Price->1.2; Type->fragile
+Id->1; Quantity->1; Name->Shwopsy mopsy; Description->super unique statue; Category->art; Price->1999.99; Type->fragile
+Id->2; Quantity->30; Name->Big TV; Description->65" TV; Category->TV; Price->2999; Type->electronic
+Id->3; Quantity->40; Name->Bananas; Description->so yummy fruits; Category->food; Price->1.3; Type->grocery
+Id->4; Quantity->34; Name->Nintendo switch; Description->only here you may play Super Mario; Category->console; Price->699; Type->electronic
+Id->5; Quantity->1; Name->My buggy storage progeram; Description->pityful try to write a strorage program; Category->C# program; Price->0; Type->fragile
+Id->6; Quantity->25; Name->Paradise; Description->super tomatoes; Category->vegetables; Price->3.5; Type->grocery

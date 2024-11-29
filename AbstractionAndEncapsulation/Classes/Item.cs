@@ -7,7 +7,7 @@ namespace AbstractionAndEncapsulation.Classes
         protected string _name = "Default name";
         protected double _value = 0;
         protected double _price = 0;
-        protected string _description = "Default escription";
+        protected string _description = "Default description";
         protected string _category = "Default category";
         protected string _type = "Default type";
         protected bool _isBreakable = false;

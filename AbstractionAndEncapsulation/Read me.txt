@@ -1,7 +1,3 @@
 ﻿- I assume that item details is combination of name, category, price, quantity, and item type.
 
 - I assume that value is a product of price and quantity.
-
-- I have some difficulties to make a differnce between type and category, i found this on the intertnet:
-"Basically Type is a N to 1 relationship (a thing can be of only one Type) and Category is a M to N relationship (a thing can have many categories at the same time)."
-but from "8." says "Create subclasses for specific item types like ElectronicsItem, GroceryItem, and FragileItem that inherit from InventoryItem."

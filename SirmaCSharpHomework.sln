@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem", "FileSystem\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionAndEncapsulation", "AbstractionAndEncapsulation\AbstractionAndEncapsulation.csproj", "{0A3D7DAA-7362-4376-BA86-F1BB50E5646A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymrphism", "Polymrphism\Polymrphism.csproj", "{B11D2D24-9010-4BE0-BEC5-AFB7A9BCD23C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0A3D7DAA-7362-4376-BA86-F1BB50E5646A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A3D7DAA-7362-4376-BA86-F1BB50E5646A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A3D7DAA-7362-4376-BA86-F1BB50E5646A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11D2D24-9010-4BE0-BEC5-AFB7A9BCD23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11D2D24-9010-4BE0-BEC5-AFB7A9BCD23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11D2D24-9010-4BE0-BEC5-AFB7A9BCD23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11D2D24-9010-4BE0-BEC5-AFB7A9BCD23C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,6 +4,8 @@
     {
         private double radius;
 
+        internal static int Parameters = 1;
+
         internal Circle(double radius)
         {
             this.radius = radius;

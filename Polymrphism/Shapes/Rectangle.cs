@@ -4,7 +4,8 @@
     {
         private readonly double width;
         private readonly double height;
-        internal string Name { get; set; }
+
+        internal static int Parameters = 2;
 
         internal Rectangle(double width, double height)
         {
